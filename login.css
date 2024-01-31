@@ -57,23 +57,11 @@ body
     font-size: 16px;
     color: #fff;
     padding: 20px 45px 20px 20px;
-    transition: background-color 0.3s; /* Add transition for smooth effect */
-}
-
-.input-box input:focus
-{
-    background-color: rgba(255, 255, 255, 0.1); /* Set background color on focus */
-    border-color: rgba(255,255,255, 0.5);
 }
 
 .input-box input::placeholder
 {
     color: #fff;
-}
-
-.input-box label
-{
-    color: #fff; /* Set label color */
 }
 
 .input-box i
@@ -83,6 +71,7 @@ body
     top: 50%;
     transform: translateY(-50%);
     font-size: 20px;
+
 }
 
 .wrapper .remember-forgot
